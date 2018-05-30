@@ -29,9 +29,13 @@ python NEAT.py save_dir number_generations number_cores k_cross_validation data_
 - label_file: (String) file path to the .cls file with the label of the samples   
 Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls
 
+
 The final gene selection will be saved as tr_selection.gct
+
 The final accuracy will be saved as accuracy.txt
+
 The final neural network will be saved as reqnet.svg
+
 The final confusion matrix will be saved as cv_cm.svg
 
 DEPENDECIES
