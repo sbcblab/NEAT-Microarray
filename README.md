@@ -1,0 +1,42 @@
+CONTACT INFORMATION
+Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
+
+Bruno Iochins Grisci, Bruno César Feltes, Márcio Dorn
+Institute of Informatics, Federal University of Rio Grande do Sul, Porto Alegre, RS, Brazil
+
+E-mail: mdorn@inf.ufrgs.br
+http://sbcb.inf.ufrgs.br
+
+CITATION
+
+If you use NEAT-Microarray in a scientific publication, we would appreciate citations to the following paper:
+
+Bibtex entry:
+
+
+HOW TO USE
+
+python NEAT.py save_dir number_generations number_cores k_cross_validation data_file label_file
+
+- save_dir: (String) directory path where the results should be saved
+- number_generations: (Int) number of generations for the Genetic Algorithm
+- number_cores: (Int) number of cores available for parallelezing
+- k_cross_validation: (Int) specifies the number of folds for stratified cross-validation, set to 0 for no cross-validation
+- data_file: (String) file path to the .gct file with the genes expression
+- label_file: (String) file path to the .cls file with the label of the samples   
+Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls
+
+The final gene selection will be saved as tr_selection.gct
+The final accuracy will be saved as accuracy.txt
+The final neural network will be saved as reqnet.svg
+The final confusion matrix will be saved as cv_cm.svg
+
+DEPENDECIES
+
+Run python check_dep.py to check if all needed libraries are installed.
+
+DATA FORMAT
+
+Please use the .gct and .cls file formats to run this script.
+GCT definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT
+CLS definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS
