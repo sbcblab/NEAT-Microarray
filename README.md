@@ -1,10 +1,13 @@
 CONTACT INFORMATION
+
 Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
 
 Bruno Iochins Grisci, Bruno César Feltes, Márcio Dorn
+
 Institute of Informatics, Federal University of Rio Grande do Sul, Porto Alegre, RS, Brazil
 
 E-mail: mdorn@inf.ufrgs.br
+
 http://sbcb.inf.ufrgs.br
 
 CITATION
@@ -38,5 +41,7 @@ Run python check_dep.py to check if all needed libraries are installed.
 DATA FORMAT
 
 Please use the .gct and .cls file formats to run this script.
+
 GCT definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT
+
 CLS definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS
