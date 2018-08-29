@@ -25,7 +25,7 @@ python NEAT.py save_dir number_generations number_cores k_cross_validation data_
 - number_generations: (Int) number of generations for the Genetic Algorithm
 - number_cores: (Int) number of cores available for parallelezing
 - k_cross_validation: (Int) specifies the number of folds for stratified cross-validation, set to 0 for no cross-validation
-- data_file: (String) file path to the .gct file with the genes expression
+- data_file: (String) file path to the .gct file with the genes expression data
 - label_file: (String) file path to the .cls file with the label of the samples
 - index_file: (String) file path to .txt file with the indexes of the samples of each fold in cross-validation. Use None to create folds automatically
 
