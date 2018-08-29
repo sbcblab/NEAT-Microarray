@@ -28,6 +28,7 @@ python NEAT.py save_dir number_generations number_cores k_cross_validation data_
 - data_file: (String) file path to the .gct file with the genes expression
 - label_file: (String) file path to the .cls file with the label of the samples
 - index_file: (String) file path to .txt file with the indexes of the samples of each fold in cross-validation. Use None to create folds automatically
+
 Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls None
 
 
