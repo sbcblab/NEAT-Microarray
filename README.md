@@ -19,15 +19,16 @@ Bibtex entry:
 
 HOW TO USE
 
-python NEAT.py save_dir number_generations number_cores k_cross_validation data_file label_file
+python NEAT.py save_dir number_generations number_cores k_cross_validation data_file label_file index_file
 
 - save_dir: (String) directory path where the results should be saved
 - number_generations: (Int) number of generations for the Genetic Algorithm
 - number_cores: (Int) number of cores available for parallelezing
 - k_cross_validation: (Int) specifies the number of folds for stratified cross-validation, set to 0 for no cross-validation
 - data_file: (String) file path to the .gct file with the genes expression
-- label_file: (String) file path to the .cls file with the label of the samples   
-Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls
+- label_file: (String) file path to the .cls file with the label of the samples
+- index_file: (String) file path to .txt file with the indexes of the samples of each fold in cross-validation. Use None to create folds automatically
+Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls None
 
 
 The final gene selection will be saved as tr_selection.gct
