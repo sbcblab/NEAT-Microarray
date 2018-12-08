@@ -14,8 +14,18 @@ CITATION
 
 If you use NEAT-Microarray in a scientific publication, we would appreciate citations to the following paper:
 
+Grisci, Bruno Iochins, Bruno César Feltes, and Marcio Dorn. "Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research." Journal of Biomedical Informatics (2018).
+https://doi.org/10.1016/j.jbi.2018.11.013
+
 Bibtex entry:
 
+@article{grisci2018neuroevolution,
+  title={Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research},
+  author={Grisci, Bruno Iochins and Feltes, Bruno C{\'e}sar and Dorn, Marcio},
+  journal={Journal of Biomedical Informatics},
+  year={2018},
+  publisher={Elsevier}
+}
 
 HOW TO USE
 
