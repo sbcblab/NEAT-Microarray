@@ -19,11 +19,13 @@ https://doi.org/10.1016/j.jbi.2018.11.013
 
 Bibtex entry:
 
-@article{grisci2018neuroevolution,
-  title={Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research},
+@article{grisci2019neuroevolution,
+  title={Neuroevolution as a tool for microarray gene expression pattern identification in cancer research},
   author={Grisci, Bruno Iochins and Feltes, Bruno C{\'e}sar and Dorn, Marcio},
-  journal={Journal of Biomedical Informatics},
-  year={2018},
+  journal={Journal of biomedical informatics},
+  volume={89},
+  pages={122--133},
+  year={2019},
   publisher={Elsevier}
 }
 
