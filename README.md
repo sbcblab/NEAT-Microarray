@@ -31,6 +31,8 @@ Bibtex entry:
 
 HOW TO USE
 
+Download the neat.zip file and extract with the password "sbcbjbi2018" without the quotation marks. To run use the following command:
+
 python NEAT.py save_dir number_generations number_cores k_cross_validation data_file label_file index_file
 
 - save_dir: (String) directory path where the results should be saved
