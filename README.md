@@ -1,3 +1,7 @@
+## Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
+
+Welcome to this repository. Here you will find all the code needed to run the N3O algorithm for microarray classification and gene selection.
+
 ### CONTACT INFORMATION
 
 Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
