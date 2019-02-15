@@ -1,4 +1,4 @@
-CONTACT INFORMATION
+# CONTACT INFORMATION
 
 Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
 
@@ -10,7 +10,7 @@ E-mail: mdorn@inf.ufrgs.br
 
 http://sbcb.inf.ufrgs.br
 
-CITATION
+# CITATION
 
 If you use NEAT-Microarray in a scientific publication, we would appreciate citations to the following paper:
 
@@ -29,7 +29,7 @@ Bibtex entry:
   publisher={Elsevier}
 }
 
-HOW TO USE
+# HOW TO USE
 
 Download the neat.zip file and extract with the password "sbcbjbi2018" without the quotation marks. To run use the following command:
 
@@ -54,11 +54,13 @@ The final neural network will be saved as reqnet.svg
 
 The final confusion matrix will be saved as cv_cm.svg
 
-DEPENDECIES
+# DEPENDECIES
 
 Run python check_dep.py to check if all needed libraries are installed.
 
-DATA FORMAT
+Graphviz software is also required.
+
+# DATA FORMAT
 
 Please use the .gct and .cls file formats to run this script.
 
