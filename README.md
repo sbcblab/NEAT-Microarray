@@ -58,7 +58,7 @@ The final neural network will be saved as reqnet.svg
 
 The final confusion matrix will be saved as cv_cm.svg
 
-### DEPENDECIES
+### DEPENDENCIES
 
 Run 
 ```
