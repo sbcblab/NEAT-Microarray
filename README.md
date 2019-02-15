@@ -1,4 +1,4 @@
-# CONTACT INFORMATION
+### CONTACT INFORMATION
 
 Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
 
@@ -10,7 +10,7 @@ E-mail: mdorn@inf.ufrgs.br
 
 http://sbcb.inf.ufrgs.br
 
-# CITATION
+### CITATION
 
 If you use NEAT-Microarray in a scientific publication, we would appreciate citations to the following paper:
 
@@ -19,6 +19,7 @@ https://doi.org/10.1016/j.jbi.2018.11.013
 
 Bibtex entry:
 
+```
 @article{grisci2019neuroevolution,
   title={Neuroevolution as a tool for microarray gene expression pattern identification in cancer research},
   author={Grisci, Bruno Iochins and Feltes, Bruno C{\'e}sar and Dorn, Marcio},
@@ -28,8 +29,9 @@ Bibtex entry:
   year={2019},
   publisher={Elsevier}
 }
+```
 
-# HOW TO USE
+### HOW TO USE
 
 Download the neat.zip file and extract with the password "sbcbjbi2018" without the quotation marks. To run use the following command:
 
@@ -43,8 +45,10 @@ python NEAT.py save_dir number_generations number_cores k_cross_validation data_
 - label_file: (String) file path to the .cls file with the label of the samples
 - index_file: (String) file path to .txt file with the indexes of the samples of each fold in cross-validation. Use None to create folds automatically
 
-Example: python NEAT.py results 100 4 3 data/samples.gct data/samples.cls None
-
+Example: 
+```
+python NEAT.py results 100 4 3 data/samples.gct data/samples.cls None
+```
 
 The final gene selection will be saved as tr_selection.gct
 
@@ -54,13 +58,17 @@ The final neural network will be saved as reqnet.svg
 
 The final confusion matrix will be saved as cv_cm.svg
 
-# DEPENDECIES
+### DEPENDECIES
 
-Run python check_dep.py to check if all needed libraries are installed.
+Run 
+```
+python check_dep.py 
+```
+to check if all needed libraries are installed.
 
 Graphviz software is also required.
 
-# DATA FORMAT
+### DATA FORMAT
 
 Please use the .gct and .cls file formats to run this script.
 
