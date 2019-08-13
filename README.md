@@ -38,6 +38,7 @@ Bibtex entry:
   publisher={Elsevier}
 }
 ```
+If you are looking for a previous work that uses pure FS-NEAT for microarray classification, please refer to https://doi.org/10.1109/CEC.2018.8477813
 
 ### HOW TO USE
 
