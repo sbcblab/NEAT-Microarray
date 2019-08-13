@@ -92,6 +92,8 @@ Warning: Please note that for the use with N3O all classification problems must 
 
 ### MICROARRAY DATA FOR TESTS
 
+The data used in the original paper is available (compressed) in the data directory.
+
 If you need data for tests or benchmarks, or just want microarray datasets for your own experiments, check CuMiDa (Curated Microarray Database) at: http://sbcb.inf.ufrgs.br/cumida
 
 All data used in this paper is available through CuMiDa.
