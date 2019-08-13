@@ -14,7 +14,7 @@ Bruno Iochins Grisci, Bruno César Feltes, Márcio Dorn
 
 Institute of Informatics, Federal University of Rio Grande do Sul, Porto Alegre, RS, Brazil
 
-E-mail: mdorn@inf.ufrgs.br
+E-mail: bigrisci@inf.ufrgs.br and mdorn@inf.ufrgs.br
 
 http://sbcb.inf.ufrgs.br
 
