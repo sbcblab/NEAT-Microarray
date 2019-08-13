@@ -929,6 +929,8 @@ if __name__ == '__main__':
     num_gen   = int(sys.argv[2])
     num_cores = int(sys.argv[3])
     k         = int(sys.argv[4])
+    if k == 1:
+        sys.exit('Error: k must be 0 or larger than 1')
     tr_data_file_sel = ''    
     tr_data_file  = sys.argv[5]
     tr_label_file = sys.argv[6]
@@ -951,6 +953,8 @@ if __name__ == '__main__':
     
     #READ TRAINING DATASET
     training = MAR(tr_data_file, tr_label_file)
+    if training.number_classes != 2:
+        sys.exit('ERROR: Number of classes must be 2!')
     print(training.get_mean_std())
     print('Selected decay is 1 - {}'.format(decay))
     
