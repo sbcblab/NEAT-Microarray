@@ -22,7 +22,7 @@ http://sbcb.inf.ufrgs.br
 
 If you use N3O in a scientific publication, we would appreciate citations to the following paper:
 
-Grisci, Bruno Iochins, Bruno César Feltes, and Marcio Dorn. "Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research." Journal of Biomedical Informatics (2018).
+Bruno Iochins Grisci, Bruno César Feltes, and Marcio Dorn. "Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research." Journal of Biomedical Informatics (2018).
 https://doi.org/10.1016/j.jbi.2018.11.013
 
 Bibtex entry:
