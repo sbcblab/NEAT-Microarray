@@ -2,6 +2,10 @@
 
 Welcome to this repository. Here you will find all the code needed to run the N3O algorithm for microarray classification and gene selection.
 
+### ABOUT
+
+Microarrays are still one of the major techniques employed to study cancer biology. However, the identification of expression patterns from microarray datasets is still a significant challenge to overcome. In this work, a new approach using Neuroevolution, a machine learning field that combines neural networks and evolutionary computation, provides aid in this challenge by simultaneously classifying microarray data and selecting the subset of more relevant genes. The main algorithm, FS-NEAT, was adapted by the addition of new structural operators designed for this high dimensional data. In addition, a rigorous filtering and preprocessing protocol was employed to select quality microarray datasets for the proposed method, selecting 13 datasets from three different cancer types. The results show that Neuroevolution was able to successfully classify microarray samples when compared with other methods in the literature, while also finding subsets of genes that can be generalized for other algorithms and carry relevant biological information. This approach detected 177 genes, and 82 were validated as already being associated to their respective cancer types and 44 were associated to other types of cancer, becoming potential targets to be explored as cancer biomarkers. Five long non-coding RNAs were also detected, from which four don’t have described functions yet. The expression patterns found are intrinsically related to extracellular matrix, exosomes and cell proliferation. The results obtained in this work could aid in unraveling the molecular mechanisms underlying the tumoral process and describe new potential targets to be explored in future works.
+
 ### CONTACT INFORMATION
 
 Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research
@@ -16,7 +20,7 @@ http://sbcb.inf.ufrgs.br
 
 ### CITATION
 
-If you use NEAT-Microarray in a scientific publication, we would appreciate citations to the following paper:
+If you use N3O in a scientific publication, we would appreciate citations to the following paper:
 
 Grisci, Bruno Iochins, Bruno César Feltes, and Marcio Dorn. "Neuroevolution as a Tool for Microarray Gene Expression Pattern Identification in Cancer Research." Journal of Biomedical Informatics (2018).
 https://doi.org/10.1016/j.jbi.2018.11.013
@@ -70,7 +74,10 @@ python check_dep.py
 ```
 to check if all needed libraries are installed.
 
-Graphviz software is also required.
+Graphviz software is also required: https://www.graphviz.org/
+The NEAT-Python’s is also required: https://neat-python.readthedocs.io
+
+Please note that the code should run with Python 2.7.
 
 ### DATA FORMAT
 
@@ -79,3 +86,11 @@ Please use the .gct and .cls file formats to run this script.
 GCT definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT
 
 CLS definition: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS
+
+Warning: Please note that for the use with N3O all classification problems must be binary (the input files must contain exactly 2 classes!).
+
+### MICROARRAY DATA FOR TESTS
+
+If you need data for tests or benchmarks, or just want microarray datasets for your own experiments, check CuMiDa (Curated Microarray Database) at: http://sbcb.inf.ufrgs.br/cumida
+All data used in this paper is available through CuMiDa.
+Warning: Please note that for the use with N3O all classification problems must be binary (the input files must contain exactly 2 classes!). You can adapt multiclass problems (like some of the datasets available at CuMiDa) by using One-vs-All classification: https://en.wikipedia.org/wiki/Multiclass_classification#One-vs.-rest
