@@ -75,6 +75,7 @@ python check_dep.py
 to check if all needed libraries are installed.
 
 Graphviz software is also required: https://www.graphviz.org/
+
 The NEAT-Python’s is also required: https://neat-python.readthedocs.io
 
 Please note that the code should run with Python 2.7.
@@ -92,5 +93,7 @@ Warning: Please note that for the use with N3O all classification problems must 
 ### MICROARRAY DATA FOR TESTS
 
 If you need data for tests or benchmarks, or just want microarray datasets for your own experiments, check CuMiDa (Curated Microarray Database) at: http://sbcb.inf.ufrgs.br/cumida
+
 All data used in this paper is available through CuMiDa.
+
 Warning: Please note that for the use with N3O all classification problems must be binary (the input files must contain exactly 2 classes!). You can adapt multiclass problems (like some of the datasets available at CuMiDa) by using One-vs-All classification: https://en.wikipedia.org/wiki/Multiclass_classification#One-vs.-rest
