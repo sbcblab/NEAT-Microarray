@@ -947,9 +947,18 @@ if __name__ == '__main__':
         os.makedirs(save_dir)
 
     #copyfile(config_path, save_dir+'c-n')
-    copyfile('NEAT.py',   save_dir+'n.py')
-    copyfile('script.sh', save_dir+'s.sh')
-    copyfile('eval_functions.py', save_dir+'ef.py')
+    try:
+        copyfile('NEAT.py', save_dir+'n.py')
+    except:
+        pass
+    try:
+        copyfile('script.sh', save_dir+'s.sh')
+    except:
+        pass
+    try:
+        copyfile('eval_functions.py', save_dir+'ef.py')
+    except:
+        pass
     
     #READ TRAINING DATASET
     training = MAR(tr_data_file, tr_label_file)
