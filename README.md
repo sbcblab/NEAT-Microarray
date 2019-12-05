@@ -67,6 +67,8 @@ The final neural network will be saved as reqnet.svg
 
 The final confusion matrix will be saved as cv_cm.svg
 
+Warning: Please note that due to multiprocessing compatibility issues this code is currently only supported by Unix (Linux and macOS) operating systems.
+
 ### DEPENDENCIES
 
 Run 
